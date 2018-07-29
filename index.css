@@ -94,6 +94,15 @@ body, html {
     display: flex;
     flex-direction: column;    
     padding: 1rem;
+    opacity: 0;
+    animation: menu; 
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .nav-items {
@@ -161,13 +170,17 @@ body, html {
 .display-area {
     display: grid;
     grid-area: d;
-    overflow: scroll;
-    white-space: nowrap;
     height: 19rem;
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(100px, auto);
     justify-content: space-around;
     grid-gap: 1rem;
+}
+
+.display-area {
+    overflow-x: scroll;
+    overflow-y: hidden;   
+    white-space: nowrap; 
 }
 
 .homes {

@@ -22,13 +22,8 @@ window.onload = function() {
     xml.send();
 }
 
-
-
-
-
 var openClose = function() {
     list.classList.toggle('show');
 };
 
 menu.addEventListener('click', openClose);
-
