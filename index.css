@@ -3,6 +3,16 @@
     --dark: #333;
     --light: #fff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --green: green;
+  }
+
+  .btn2 {
+      color: var(--light);
+      background: var(--green);
+      padding: 0.6rem 1.3rem;
+      text-decoration: none;
+      border: 0;
+      cursor: pointer;
   }
 
   img {
@@ -151,17 +161,15 @@ body, html {
     flex-direction: column;
 }
 
-/* .homes {
-    background: url(img/home.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
+.available {
+    text-align: center;
+}
 
 .display-area {
     grid-area: d;
     overflow-x: auto;
     white-space: nowrap;
-    height: 15rem;
+    height: 19rem;
     padding: 1rem;
 }
 
