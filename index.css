@@ -1,0 +1,154 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  }
+
+  .fa-facebook {
+    color: var(--light);
+  }
+
+  .fa-twitter {
+    color: var(--light);
+  }
+
+  .fa-instagram {
+    color: var(--light);
+  }
+  
+.fa-pinterest {
+    color: var(--light);    
+}
+
+.fa-home {
+    color: var(--dark);
+}
+
+.search {
+    border: 1px solid black;
+    height: 3rem;
+    width: 20rem;
+    box-shadow: var(--shadow);
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.other-info {
+    display: none;
+}
+
+.fa-bars {
+    color: red;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    padding: 1rem;
+}
+
+.logo {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.bottom-logo {
+  padding: 1rem;
+}
+
+.spacer {
+    flex:1;
+}
+
+.nav-list {
+    display: none;
+    list-style: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;    
+    padding: 1rem;
+}
+
+.nav-items {
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom:  1px solid black;
+}
+
+.nav-links {
+    text-decoration: none;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 
+    'j j j j'
+    'j j j j'
+    'j j j j'
+    'j j j j'
+    'j j j j'
+    'j j j j'
+    'd d d d'
+    'd d d d'
+    'd d d d'
+    'd d d d'
+    'd d d d'
+    'd d d d'
+    'f f f f'
+    'f f f f'
+    'filler filler filler filler'
+    'filler filler filler filler';
+}
+
+
+.display-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1rem;
+}
+
+.jumbotron-container {
+    grid-area: j;
+}
+
+.display-area {
+    grid-area: d;
+}
+
+footer {
+    grid-area: f;
+
+}
+
+.filler {
+    grid-area: filler;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.filler {
+    background: var(--dark);
+    width: 100%;
+    height: 50%;
+}
