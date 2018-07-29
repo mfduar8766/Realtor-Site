@@ -145,6 +145,12 @@ body, html {
     flex-direction: column;
 }
 
+
+.homes {
+    background: url(img/home.jpg);
+    background-size: cover;
+}
+
 .display-area {
     grid-area: d;
 }
