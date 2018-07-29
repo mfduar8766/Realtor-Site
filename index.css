@@ -147,6 +147,43 @@ footer {
     flex-direction: column;
 }
 
+.general-info {
+    padding: 1rem;
+}
+
+.general-info-list {
+    display:flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.general-info-items {
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.general-info-items a {
+    text-decoration: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    order: -1;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background: var(--dark);
+}
+
+.social-list {
+    list-style-type: none;
+}
+
 .filler {
     background: var(--dark);
     width: 100%;
