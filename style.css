@@ -43,9 +43,23 @@
         border-bottom: none;
     }   
 
+    .jumbotron-container {
+        height: 30rem;
+        margin-bottom: 25rem;
+    }
+
+    .jumbotron {
+        height: 50rem;
+    }
+
     .display-area {
         height: 50rem;
         width: 100%;
+    }
+
+    .homes {
+    background-size: contain;
+    background-repeat: no-repeat;
     }
 
     .general-info-list {
