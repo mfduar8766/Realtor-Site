@@ -114,6 +114,8 @@ body, html {
     'f f f f'
     'f f f f'
     'filler filler filler filler'
+    'filler filler filler filler'
+    'filler filler filler filler'
     'filler filler filler filler';
 }
 
@@ -162,6 +164,7 @@ footer {
 
 .filler {
     grid-area: filler;
+    width: 100%;
 }
 
 footer {
