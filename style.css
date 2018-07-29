@@ -50,6 +50,13 @@
 
     .jumbotron {
         height: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .search-msg {
+        font-size: 2rem;
     }
 
     .display-area {
@@ -58,8 +65,8 @@
     }
 
     .homes {
-    background-size: contain;
-    background-repeat: no-repeat;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .general-info-list {
