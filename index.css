@@ -117,7 +117,6 @@ body, html {
     'filler filler filler filler';
 }
 
-
 .display-area {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -127,6 +126,23 @@ body, html {
 
 .jumbotron-container {
     grid-area: j;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: url(img//jumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--light);
+    z-index: -1;
+}
+
+.search-homes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .display-area {
