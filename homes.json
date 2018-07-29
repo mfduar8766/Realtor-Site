@@ -1,8 +1,8 @@
 [
     {
         "id":0,
-        "imga": "/img/4bed.jpg",
-        "bedrroms": 4,
+        "image": "/img/4bed.jpg",
+        "bedrooms": 4,
         "baths": 3,
         "sqrft": "2,350",
         "price": "300,000",
@@ -10,8 +10,8 @@
     },
     {
         "id":1,
-        "imga": "/img/3bed.jpg",
-        "bedrroms": 3,
+        "image": "/img/3bd.jpg",
+        "bedrooms": 3,
         "baths": 3,
         "sqrft": "2,270",
         "price": "250,000",
@@ -19,8 +19,8 @@
     },
     {
         "id":2,
-        "imga": "/img/home.jpg",
-        "bedrroms": 3,
+        "image": "/img/home.jpg",
+        "bedrooms": 3,
         "baths": 2,
         "sqrft": "2,250",
         "price": "235,000",
@@ -28,11 +28,20 @@
     },
     {
         "id":3,
-        "imga": "/img/3bd2.jpg",
-        "bedrroms": 4,
+        "image": "/img/3bd2.jpg",
+        "bedrooms": 4,
         "baths": 3,
         "sqrft": "2,300",
         "price": "275,000",
         "address": "3361 Snt Street Alpharetta, GA"
+    },
+    {
+        "id":4,
+        "image": "/img/home5.jpg",
+        "bedrooms": 5,
+        "baths": 4,
+        "sqrft": "2,380",
+        "price": "330,000",
+        "address": "765 Property Lane Alpharetta, GA"
     }
 ]
