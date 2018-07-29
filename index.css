@@ -5,6 +5,10 @@
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
   }
 
+  img {
+    width: 100%;
+}
+
   .fa-facebook {
     color: var(--light);
   }
@@ -155,17 +159,17 @@ body, html {
 
 .display-area {
     grid-area: d;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 15rem;
+    padding: 1rem;
 }
 
-img {
-    width: 100%;
-}
-
-.home1 {
+.homes {
     display: flex;
     flex-direction: column;
     box-shadow: var(--shadow);
-    width: 20rem;
+    width: 15rem;
 }
 
 .description {
