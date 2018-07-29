@@ -1,0 +1,38 @@
+[
+    {
+        "id":0,
+        "imga": "/img/4bed.jpg",
+        "bedrroms": 4,
+        "baths": 3,
+        "sqrft": "2,350",
+        "price": "300,000",
+        "address": "123 Property Lane Alpharetta, GA"
+    },
+    {
+        "id":1,
+        "imga": "/img/3bed.jpg",
+        "bedrroms": 3,
+        "baths": 3,
+        "sqrft": "2,270",
+        "price": "250,000",
+        "address": "6521 Property Lane Alpharetta, GA"
+    },
+    {
+        "id":2,
+        "imga": "/img/home.jpg",
+        "bedrroms": 3,
+        "baths": 2,
+        "sqrft": "2,250",
+        "price": "235,000",
+        "address": "3321 Snt Street Alpharetta, GA"
+    },
+    {
+        "id":3,
+        "imga": "/img/3bd2.jpg",
+        "bedrroms": 4,
+        "baths": 3,
+        "sqrft": "2,300",
+        "price": "275,000",
+        "address": "3361 Snt Street Alpharetta, GA"
+    }
+]
