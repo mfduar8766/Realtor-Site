@@ -43,7 +43,7 @@
 }
 
 .general-info-list-items {
-    color: red;
+    color:var(--primary);
 }
 
 body, html {
@@ -75,6 +75,7 @@ body, html {
 
 .logo a {
     text-decoration: none;
+    color: var(--dark)
 }
 
 .bottom-logo {
