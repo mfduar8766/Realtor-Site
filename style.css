@@ -7,7 +7,7 @@
         display: flex;
         justify-content: space-between;
         padding: 1rem;
-        background: lightgray;
+        background:var(--dark);
     }
 
     .btn {
