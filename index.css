@@ -224,6 +224,14 @@ footer {
   grid-area: f;
 }
 
+.google-maps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  margin: 1.5rem;
+}
+
 .filler {
   grid-area: filler;
   width: 100%;
