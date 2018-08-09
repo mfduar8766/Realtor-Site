@@ -1,5 +1,5 @@
 var menu = document.querySelector(".menu");
-var list = document.querySelector(".nav-list");
+var list = document.querySelector(".main-nav");
 
 var home1 = function(data) {
     var home = document.querySelector(".home1-img");
