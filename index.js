@@ -31,16 +31,20 @@ var home5 = function(data) {
   return home;
 };
 
-fetch("homes.json")
-  .then(res => res.json())
-  .then(data => {
-    home1(data[0].image);
-    home2(data[1].image);
-    home3(data[2].image);
-    home4(data[3].image);
-    home5(data[4].image);
-  })
-  .catch(error => console.log(error));
+let getData = async () => {
+  await fetch("homes.json")
+    .then(res => res.json())
+    .then(data => {
+      home1(data[0].image);
+      home2(data[1].image);
+      home3(data[2].image);
+      home4(data[3].image);
+      home5(data[4].image);
+    })
+    .catch(error => console.log(error));
+};
+
+getData();
 
 var openClose = function() {
   list.classList.toggle("show");
