@@ -1,7 +1,7 @@
 [
     {
         "id":0,
-        "image": "/img/4bed.jpg",
+        "image": "img/4bed.jpg",
         "bedrooms": 4,
         "baths": 3,
         "sqrft": "2,350",
@@ -10,7 +10,7 @@
     },
     {
         "id":1,
-        "image": "/img/3bd.jpg",
+        "image": "img/3bd.jpg",
         "bedrooms": 3,
         "baths": 3,
         "sqrft": "2,270",
@@ -19,7 +19,7 @@
     },
     {
         "id":2,
-        "image": "/img/home.jpg",
+        "image": "img/home.jpg",
         "bedrooms": 3,
         "baths": 2,
         "sqrft": "2,250",
@@ -28,7 +28,7 @@
     },
     {
         "id":3,
-        "image": "/img/3bd2.jpg",
+        "image": "img/3bd2.jpg",
         "bedrooms": 4,
         "baths": 3,
         "sqrft": "2,300",
@@ -37,7 +37,7 @@
     },
     {
         "id":4,
-        "image": "/img/home5.jpg",
+        "image": "img/home5.jpg",
         "bedrooms": 5,
         "baths": 4,
         "sqrft": "2,380",
